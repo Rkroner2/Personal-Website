@@ -1,5 +1,5 @@
 :root{
-    --primary: black;
+    --primary: rgb(66, 84, 184);
     --secondary: white;
 
     color: var(--secondary);
@@ -12,6 +12,17 @@
 body{
     background-color: var(--primary);
 }
+
+/* Generic Classes*/
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Specific Classes */
 
 .page-num {
     position: fixed;
@@ -45,4 +56,37 @@ body{
 
 #navbar .left-nav-container img{
     width: 50px;
+}
+
+#navbar .hamburger-button {
+    background: none;
+    border: 0;
+}
+#navbar .hamburger-button:hover {
+    cursor: pointer;
+}
+
+/* #navbar .hamburger-button img {
+    
+}
+
+.page-nav {
+
+} */
+
+.arrow-button {
+    background: none;
+    border: none;
+}
+
+.arrow-button:hover {
+    cursor: pointer;
+}
+
+/* .arrow-button:hover img {
+} */
+
+.arrow-button img {
+    width: 40px;
+    height: 20px;
 }
