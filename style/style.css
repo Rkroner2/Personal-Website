@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Chivo;
+    src: url("./font/Chivo-VariableFont_wght.ttf");
+}
+
+*{
+    font-family: 'Chivo', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root {
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    --c1: dodgerblue;
+    --c2: #ddd;
+    --c3: rgb(127, 127, 127);
+    --c3: rgba(127, 127, 127, 0.5);
+}
+
+body {
+    background-color: var(--c1);
+    margin: 0px;
+}
+
+#navbar {
+    background-color: var(--c2);
+    width: auto;
+    padding: 5px 10px 5px 10px;
+
+    position: sticky;
+    top: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-container a {
+    text-decoration: none;
+}
+
+.buttons {
+    color: navy;
+    border: 2px navy solid;
+}
+
+button {
+    color: blue !important;
+}
+
+.content {
+    margin: 0 10px 0 10px;
+}
+
+.icon {
+    margin: 0 10px 0 10px;
+}
