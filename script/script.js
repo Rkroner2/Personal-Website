@@ -4,10 +4,14 @@ let pageCount = 3;
 let currentPage = 0;
 let pages;
 
+let pageCountEl = document.getElementById('total-page');
+let pageNumberEl = document.getElementById('current-page');
+
 initializePages();
 
 function initializePages() {
     pages = document.getElementsByClassName('page');
+    pageCountEl.textContent = pageCount;
 }
 
 function nextPage() {
@@ -19,6 +23,7 @@ function nextPage() {
         currentPage++;
 
         pages[currentPage].classList.toggle('hidden')
+        pageNumberEl.textContent = currentPage+1;
 }
 
 function prevPage() {
@@ -30,6 +35,7 @@ function prevPage() {
         currentPage--;
 
         pages[currentPage].classList.toggle('hidden')
+        pageNumberEl.textContent = currentPage+1;
 }
 
 function toggleNav() {
