@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/about.css">
+    <script src="../script/script.js" defer></script>
+</head>
+<body>
+    
+    <div>
+        <h1 class="push">
+            About Me
+        </h1>
+        <div id=navbar class="button-container" class="push">
+            <a>
+            <button class="buttons"> My Arduino </button>
+            </a>
+            <a href="./marque.html">
+            <button class="buttons"> Marque </button>
+            </a>
+            <a>
+            <button class="buttons"> Contact </button>
+            </a>
+        </div>
+        <div class="page-nav flex-row">
+            <button class="arrow-button" onclick="prevPage()">
+                <img src="../icons/arrow_back_FILL0_wght400_GRAD0_opsz24.svg">
+            </button>
+
+            <p><span id="current-page">1</span> / <span id="total-page">3</span></p>
+
+            <button class="arrow-button" onclick="nextPage()">
+                <img src="../icons/arrow_forward_FILL0_wght400_GRAD0_opsz24.svg">
+            </button>
+        </div>
+    </div>
+    
+<div class="page" id="page-0">
+    <div>
+        <p>
+            This website was made by Ryan Kroner, a student of Pasack Hills High School class of 2024.
+            Ryan is a committed, hard working student. Now committed to Lehigh, class of 2028, he is ending his senior year with much optimism for the future. In highschool, he has taken three different computer science courses through his 4 years of high school academics. These classes include Honors Computer Science, AP Computer Science, and Advanced Topic in Computer Science.
+        </p>
+        <img class="push2" src="/Personal-Website/icons/IMG_5723.jpg">
+    </div>
+</div>
+
+<div class="page hidden" id="page-1">
+    <div>
+        <p>
+            Throughout these classes Ryan has made quite a few different projects. Starting off his year Ryan, along with a few of his classmates, made a website for guidance counselors. This website allows guidance counselors to check on all of the students they're responsible for, and make sure they have completed the requirements they need to graduate.
+        </p>
+        <img class="push2" src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*">
+    </div>
+</div>
+
+<div class="page hidden" id="page-2">
+    <div>
+        <p>
+            Ryan has also created a game, or hand exercise, with the helpful tool, arduino. With arduino, Ryan made a guitar hero inspired game. In this game there are two columns of led light bulbs. These light bulbs light up one at a time going down the column. The players jobs is the click a button on the bottom once the last light goes off. Doing so successfully would speed up the game.
+        </p>
+        <img class="push2" src="/Personal-Website/icons/Screen Shot 2024-03-25 at 10.25.17 AM.png">
+    </div>
+</div>
+
+</body>
+</html>

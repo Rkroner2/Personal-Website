@@ -17,6 +17,22 @@
     --c3: rgba(127, 127, 127, 0.5);
 }
 
+/* Generic Classes*/
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
 body {
     background-color: var(--c1);
     margin: 0px;
