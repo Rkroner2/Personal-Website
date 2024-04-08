@@ -74,7 +74,7 @@ button:hover {
 }
 
 .push2{
-    padding: 0px 30px;
+    padding: 0px 100px;
 }
 
 .page-num {
@@ -141,4 +141,9 @@ button:hover {
 
 #sidebar-nav.sidebar-shown {
     right: 0px;
+}
+
+.shrink img {
+    width: 30px;
+    height: auto;
 }
